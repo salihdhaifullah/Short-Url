@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Url</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Short Url</h1>
+                <h3 id="error" style="color: red; display: none;"> Some think want Wrong </h3>
+                <a id="shortUrl" style="display: none;"></a>
+                <form>
+                    <div class="form-group">
+                        <label for="url">Url</label>
+                        <input type="text" class="form-control" id="url" name="url" placeholder="Enter url">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Shorten</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
